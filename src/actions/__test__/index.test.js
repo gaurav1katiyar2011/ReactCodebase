@@ -23,4 +23,9 @@ describe('Save Comment',()=>{
         const action=saveComment('New Comment');
         expect(action.payload).toEqual('New Comment')
     })
+
+    it('should be correct payload 2',()=>{
+        const action=saveComment('New Comment');
+        expect(action.payload).toEqual('New Comment')
+    })
 })
